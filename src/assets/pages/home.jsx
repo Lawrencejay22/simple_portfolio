@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                     <div className="service-card">
                         <div className="icon">💻</div>
-                        <h4>Web Designer</h4>
+                        <h4>Beginner A Web Designer</h4>
                         <p> As a beginner programmer, I can do a simple web design for your website/ common design/modern design
                             <br />
                             for your website so that I can recode it
