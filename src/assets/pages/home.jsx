@@ -21,7 +21,7 @@ export default function Home() {
             <section className="hero">
                 <div className="intro-text">
                     <h1 style={{ fontSize: '3rem', color: '#fff', fontWeight: 'bold', justifyContent: 'space-between' }}>
-                        Hi I'm Lawrence Jay Gabionza</h1>
+                        Hi, I'm Lawrence Jay Gabionza</h1>
                     <h3 className="typing-text">And I'm a <span>{typingText}</span></h3>
                     <br />
                     <p>
@@ -38,29 +38,38 @@ export default function Home() {
                 </div>
             </section>
             <section className="services">
-                <h3>My Services</h3>
-                <h2>What I Do</h2>
+                <h3>My bigenner skills</h3>
+                <h2>What should i do</h2>
                 <div className="service-boxes">
                     <div className="service-card">
                         <div className="icon">🧩</div>
                         <h4>UI/UX Designer</h4>
-                        <p>I design intuitive and engaging interfaces to enhance user experience and satisfaction.</p>
+                        <p> As a beginner i can make a simple ui/ux design for your website that I can improve the
+                            <br />
+                            design that I can do twice  is common design and modern design
+                        </p>
                     </div>
 
                     <div className="service-card">
                         <div className="icon">🎨</div>
                         <h4>Graphic Designer</h4>
-                        <p>From logos to full brand identity, I create cohesive and visually striking designs.</p>
+                        <p> As a beginner programmer i can do a simple graphic design/modern design and the logo
+                            <br />
+                            for your website
+                        </p>
                     </div>
                     <div className="service-card">
                         <div className="icon">💻</div>
                         <h4>Web Designer</h4>
-                        <p>I build modern and responsive websites that look great on every device.</p>
+                        <p> As a beginner programmer i can do a simple web design for your website/ common design/modern design
+                            <br />
+                            for your website that I can recode it
+                        </p>
                     </div>
                     <div className="service-card">
                         <div className="icon">😊</div>
                         <h4>Beginner Programmer</h4>
-                        <p>I am a beginner programmer and I am learning to code. I am a hard worker and I am determined to succeed.</p>
+                        <p>I am a beginner programmer, and I am learning to code. I am a hard worker, and I am determined to succeed.</p>
                     </div>
                 </div>
                 <br />
