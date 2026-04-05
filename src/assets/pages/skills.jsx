@@ -77,48 +77,6 @@ export default function Skills() {
                         </div>
                     ))}
                 </section>
-                <section className="Skill-section">
-                    <h1 className="section-title">
-                        Tools
-                    </h1>
-                    <div className="tools">
-                        <div className="tool">
-                            <i className="fa-brands fa-github"></i>
-                            <div>
-                                <h2>GitHub</h2>
-                                <p>I have experience working with GitHub for version control and collaboration.</p>
-                            </div>
-                        </div>
-                        <div className="tool">
-                            <i className="fa-brands fa-figma"></i>
-                            <div>
-                                <h2>Figma</h2>
-                                <p>I have experience working with Figma for UI/UX design.</p>
-                            </div>
-                            <div className="tool">
-                                <i className="fa-brand fa-visual-studio-code"></i>
-                                <div>
-                                    <h2>Visual Studio Code</h2>
-                                    <p>I have experience working with Visual Studio Code for code editing.</p>
-                                </div>
-                                <div className="tool">
-                                    <i className="fa-brands fa-chrome"></i>
-                                    <div>
-                                        <h2>Chrome</h2>
-                                        <p>I have experience working with Chrome for web development.</p>
-                                    </div>
-                                </div>
-                                <div className="tool">
-                                    <i className="fa-brands fa-antigravity"></i>
-                                    <div>
-                                        <h2>Antigravity</h2>
-                                        <p>I have experience working with Antigravity for code editing.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </main>
             <Footer />
         </>
