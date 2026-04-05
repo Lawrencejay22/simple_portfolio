@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import '../css/global.css'
 
-const Project = () => {
+export default function Project() {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         const fetchProjects = async () => {
@@ -45,4 +45,3 @@ const Project = () => {
         </>
     )
 }
-export default Project;
