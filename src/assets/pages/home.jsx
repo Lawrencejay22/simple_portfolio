@@ -37,8 +37,8 @@ export default function Home()  {
                 </div>
             </section>
             <section className="services">
-                <h3>My Services</h3>
-                <h2>What I Do</h2>
+                <h3>My bigenner Services</h3>
+                <h2>What should i do</h2>
                 <div className="service-boxes">
                     <div className="service-card">
                         <div className="icon">🧩</div>
