@@ -8,7 +8,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './assets/css/global.css';
 
-function App() {
+export default function App() {
     library.add(faBars, faFacebook, faInstagram, faYoutube, faGithub);
     return (
         <Router>
@@ -21,4 +21,3 @@ function App() {
         </Router>
     );
 }
-export default App;
