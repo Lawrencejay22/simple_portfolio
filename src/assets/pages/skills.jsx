@@ -1,10 +1,9 @@
-import { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import '../css/global.css'
 
 export default function Skills() {
-    const frontEndSkills = [
+    const skills = [
         {
             icon: 'fa-brands fa-html5',
             title: 'HTML',
@@ -28,10 +27,8 @@ export default function Skills() {
         {
             icon: 'fa-solid fa-vite',
             title: 'Vite',
-            description: 'Proficient in using Vite for fast and efficient development of modern web applications. I utilise its features for optimised build processes and seamless development experience.'
-        }
-    ];
-    const backEndSkills = [
+            description: 'Proficient in using Vite for fast and efficient development of modern web applications. I utilize its features for optimized build processes and seamless development experience.'
+        },
         {
             icon: 'fa-brands fa-php',
             title: 'PHP',
@@ -51,15 +48,25 @@ export default function Skills() {
             icon: 'fa-solid fa-server',
             title: 'Express',
             description: 'Experienced in using Express.js to build fast, robust, and scalable backend applications and RESTful APIs.'
+        },
+        {
+            icon: 'fa-brands fa-figma',
+            title: 'Figma',
+            description: 'Experienced in using Figma for UI/UX design, creating wireframes, prototypes, and high-fidelity designs for web and mobile applications.'
         }
     ];
-    const skills = [...frontEndSkills, ...backEndSkills];
     return (
         <>
             <Header />
             <main>
                 <section className="skills-section">
                     <h1 className="section-title">My Technical Skills</h1>
+                    <p className="section-description">here my bigenner skills that i have learn only the css that
+                        i modern this portfolio sometimes theres a time to get an error and get frustrated but i
+                        didnt give up and i keep on learning and practicing and now i can make a website that i can
+                        be proud of myself and i will continue to learn and improve my skills with the help of my
+                        teachers and friends.
+                    </p>
                     {skills.map((skill, index) => (
                         <div key={index} className="skill">
                             <i className={skill.icon}></i>
@@ -69,6 +76,48 @@ export default function Skills() {
                             </div>
                         </div>
                     ))}
+                </section>
+                <section className="Skill-section">
+                    <h1 className="section-title">
+                        Tools
+                    </h1>
+                    <div className="tools">
+                        <div className="tool">
+                            <i className="fa-brands fa-github"></i>
+                            <div>
+                                <h2>GitHub</h2>
+                                <p>I have experience working with GitHub for version control and collaboration.</p>
+                            </div>
+                        </div>
+                        <div className="tool">
+                            <i className="fa-brands fa-figma"></i>
+                            <div>
+                                <h2>Figma</h2>
+                                <p>I have experience working with Figma for UI/UX design.</p>
+                            </div>
+                            <div className="tool">
+                                <i className="fa-brand fa-visual-studio-code"></i>
+                                <div>
+                                    <h2>Visual Studio Code</h2>
+                                    <p>I have experience working with Visual Studio Code for code editing.</p>
+                                </div>
+                                <div className="tool">
+                                    <i className="fa-brands fa-chrome"></i>
+                                    <div>
+                                        <h2>Chrome</h2>
+                                        <p>I have experience working with Chrome for web development.</p>
+                                    </div>
+                                </div>
+                                <div className="tool">
+                                    <i className="fa-brands fa-antigravity"></i>
+                                    <div>
+                                        <h2>Antigravity</h2>
+                                        <p>I have experience working with Antigravity for code editing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </main>
             <Footer />
