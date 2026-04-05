@@ -4,7 +4,7 @@ import logo2 from "../components/image/FB_IMG_1756519957571.png";
 import resumePdf from "../../resume/Lawrence_Jay_Gabionza_resume.pdf";
 import '../css/global.css'
 
-export default  function About() {
+export default function About() {
     return (
         <>
             <Header />
@@ -20,10 +20,10 @@ export default  function About() {
                         As a student, what I want is to be successful this 2026 - 2028.
                     </p>
                     <div className="resume-download-buttons" style={{ justifyContent: 'flex-start', margin: '30px 0 0 0' }}>
-                        <a href={resumePdf} download="Lawrence_Jay_Gabionza_resume.pdf" className="btn-primary" style={{ textDecoration: 'none', display: 'inline-block', marginRight: '15px' }}>
+                        <a href={resumePdf} download="Lawrence_Jay_Gabionza_resume.pdf" className="btn-primary" style={{ boxShadow: 'none' }}>
                             Download Resume
                         </a>
-                        <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ textDecoration: 'none', display: 'inline-block', background: 'rgba(255,255,255,0.05)', boxShadow: 'none' }}>
+                        <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: 'rgba(255, 255, 255, 0.05)', boxShadow: 'none' }}>
                             View Resume
                         </a>
                     </div>
