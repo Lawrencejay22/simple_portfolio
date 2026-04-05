@@ -13,7 +13,7 @@ export default function Home()  {
     ]
     const typingText = useTypingEffect(roles, 170, 90, 1000);
     const handleLetsTalk = () => {
-        window.location.href = 'mailto:gabionzalawrencejay@gmail.com?subject=Project Inquiry&body=Hi Lawrence, I\'d like to discuss...';
+        window.location.href = 'mailto:gabionzalawrencejay@gmail.com?subject=Project Inquiry&body=Hi i am Lawrence a bigenner programmer student, I\'d like to discuss...';
     }
     return (
         <>
@@ -21,7 +21,7 @@ export default function Home()  {
             <section className="hero">
                 <div className="intro-text">
                     <h1 style={{ fontSize: '3rem', color: '#fff', fontWeight: 'bold', justifyContent: 'space-between' }}>
-                        Hi I'm Lawrence Jay Gabionza</h1>
+                        Hi, I'm Lawrence Jay Gabionza</h1>
                     <h3 className="typing-text">And I'm a <span>{typingText}</span></h3>
                     <br />
                     <p>
@@ -60,7 +60,7 @@ export default function Home()  {
                     <div className="service-card">
                         <div className="icon">😊</div>
                         <h4>Beginner Programmer</h4>
-                        <p>I am a beginner programmer and I am learning to code. I am a hard worker and I am determined to succeed.</p>
+                        <p>I am a beginner programmer, and I am learning to code. I am a hard worker, and I am determined to succeed.</p>
                     </div>
                 </div>
                 <br />
