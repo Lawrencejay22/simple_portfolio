@@ -13,7 +13,7 @@ export default function Project() {
             name: 'AwesomeTods',
             description: 'This awesometodos is a full-stack web application that I made by myself. I use the tech stack of MERN, but the tools I use are NodeJS, ExpressJS, ReactJS, mongodb but the React I use is the old one not the new one but i can use the new one but i need to practice more. the tools i use is the vscode/antigravity,github and for the deployment i use the render.com',
             image: image1,
-            link: 'https://awesome-todos-2.onrender.com'
+            link: 'https://awesometodos1-2.onrender.com'
         },
     ]
     const project2 = [
