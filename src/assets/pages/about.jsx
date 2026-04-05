@@ -4,7 +4,7 @@ import logo2 from "../components/image/FB_IMG_1756519957571.png";
 import resumePdf from "../../resume/Lawrence_Jay_Gabionza_resume.pdf";
 import '../css/global.css'
 
-const About = () => {
+export default  function About() {
     return (
         <>
             <Header />
@@ -36,4 +36,3 @@ const About = () => {
         </>
     )
 }
-export default About;
