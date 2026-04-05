@@ -43,17 +43,17 @@ export default function Home() {
                 <div className="service-boxes">
                     <div className="service-card">
                         <div className="icon">🧩</div>
-                        <h4>UI/UX Designer</h4>
+                        <h4>beginner A UI/UX Designer</h4>
                         <p> As a beginner i can make a simple ui/ux design for your website that I can improve the
                             <br />
-                            design that I can do twice  is common design and modern design
+                            design that I can do twice  is a common design and a modern design
                         </p>
                     </div>
 
                     <div className="service-card">
                         <div className="icon">🎨</div>
-                        <h4>Graphic Designer</h4>
-                        <p> As a beginner programmer i can do a simple graphic design/modern design and the logo
+                        <h4>beginner A Graphic Designer</h4>
+                        <p> As a beginner programmer, I can do a simple graphic design/modern design and the logo
                             <br />
                             for your website
                         </p>
@@ -61,15 +61,15 @@ export default function Home() {
                     <div className="service-card">
                         <div className="icon">💻</div>
                         <h4>Web Designer</h4>
-                        <p> As a beginner programmer i can do a simple web design for your website/ common design/modern design
+                        <p> As a beginner programmer, I can do a simple web design for your website/ common design/modern design
                             <br />
-                            for your website that I can recode it
+                            for your website so that I can recode it
                         </p>
                     </div>
                     <div className="service-card">
                         <div className="icon">😊</div>
                         <h4>Beginner Programmer</h4>
-                        <p>I am a beginner programmer, and I am learning to code. I am a hard worker, and I am determined to succeed.</p>
+                        <p>I am a beginner programmer, and I am learning to code. I am a hard worker, and I learn more so that someday I will be determined to succeed soon😊.</p>
                     </div>
                 </div>
                 <br />
