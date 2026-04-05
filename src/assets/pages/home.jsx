@@ -23,7 +23,6 @@ export default function Home()  {
                     <h1 style={{ fontSize: '3rem', color: '#fff', fontWeight: 'bold', justifyContent: 'space-between' }}>
                         Hi, I'm Lawrence Jay Gabionza</h1>
                     <h3 className="typing-text">And I'm a <span>{typingText}</span></h3>
-                    <br />
                     <p>
                         I am Lawrence Jay Gabionza, a 19-year-old college student from Iloilo City, Philippines
                         Currently taking up a Bachelor of Science in Information Technology at Iloilo Science and Technology University
