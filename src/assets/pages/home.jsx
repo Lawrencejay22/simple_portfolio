@@ -37,25 +37,6 @@ export default function Home()  {
                 </div>
             </section>
             <section className="services">
-                <h3>My bigenner Services</h3>
-                <h2>What should i do</h2>
-                <div className="service-boxes">
-                    <div className="service-card">
-                        <div className="icon">🧩</div>
-                        <h4>UI/UX Designer</h4>
-                        <p>I design intuitive and engaging interfaces to enhance user experience and satisfaction.</p>
-                    </div>
-
-                    <div className="service-card">
-                        <div className="icon">🎨</div>
-                        <h4>Graphic Designer</h4>
-                        <p>From logos to full brand identity, I create cohesive and visually striking designs.</p>
-                    </div>
-                    <div className="service-card">
-                        <div className="icon">💻</div>
-                        <h4>Web Designer</h4>
-                        <p>I build modern and responsive websites that look great on every device.</p>
-                    </div>
                     <div className="service-card">
                         <div className="icon">😊</div>
                         <h4>Beginner Programmer</h4>
