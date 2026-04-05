@@ -28,10 +28,10 @@ export default function Home()  {
                         I am Lawrence Jay Gabionza, a 19-year-old college student from Iloilo City, Philippines
                         Currently taking up a Bachelor of Science in Information Technology at Iloilo Science and Technology University
                         I want to improve my skills and motivation in the world of programming and web development.
-                        I am a friendly person who can easily get along with other people and communicate with them.
-                        A student, what I want to be is a successful this 2026 - 2028
+                        I am a friendly person who gets along well with others and communicates easily.
+                        A student, what I want to be is a successful student in 2026
                     </p>
-                    <button className="btn-primary" onClick={handleLetsTalk}>Let's talk.</button>
+                    <button className="btn-primary" onClick={handleLetsTalk} style={{justifyContent: 'center'}}>Let's talk.</button>
                 </div>
                 <div className="profile-right1" >
                     <img src={logo1} alt="logo" className="profile-photo" />
