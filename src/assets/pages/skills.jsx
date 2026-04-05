@@ -4,24 +4,6 @@ import Footer from "../components/footer";
 import '../css/global.css'
 
 export default function Skills() {
-    const [isAnimated, setIsAnimated] = useState(false);
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsAnimated(true);
-        }, 300)
-        return () => clearTimeout(timer);
-    }, []);
-    const getBarcolor = (percent) => {
-        if (percent <= 30) {
-            return 'red';
-        } else if (percent <= 60) {
-            return 'orange';
-        } else if (percent <= 70) {
-            return 'lightgreen';
-        } else {
-            return 'green';
-        }
-    }
     const frontEndSkills = [
         {
             icon: 'fa-brands fa-html5',
@@ -46,7 +28,7 @@ export default function Skills() {
         {
             icon: 'fa-solid fa-vite',
             title: 'Vite',
-            description: 'Proficient in using Vite for fast and efficient development of modern web applications. I utilize its features for optimized build processes and seamless development experience.'
+            description: 'Proficient in using Vite for fast and efficient development of modern web applications. I utilise its features for optimised build processes and seamless development experience.'
         }
     ];
     const backEndSkills = [
