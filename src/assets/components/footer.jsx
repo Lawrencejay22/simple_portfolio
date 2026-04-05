@@ -5,7 +5,7 @@ export default function Footer() {
             <footer className="footer">
                 <div className="footer-content">
                     <div className="footer-left">
-                        <h2 className="footer-logo">LJAY</h2>
+                        <h2 className="footer-logo">MERN</h2>
                         <p className="footer-description">Hi I'm a lawrence
                             <br />
                             I'm a student Web Developer that want to learn more and be a professional
