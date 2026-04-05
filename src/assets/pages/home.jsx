@@ -4,7 +4,7 @@ import useTypingEffect from "../Javascript/usetypingEffect";
 import logo1 from "../components/image/655216801_4119246395052392_1790540973103609579_n.png";
 import '../css/global.css'
 
-const Home = () => {
+export default function Home()  {
     const roles = [
         'Web Developer',
         'Web Designer',
@@ -69,4 +69,3 @@ const Home = () => {
         </>
     )
 }
-export default Home;
