@@ -16,11 +16,11 @@ export default function About() {
                         I am Lawrence Jay Gabionza, a 19-year-old college student from Iloilo City, Philippines.
                         Currently taking up a Bachelor of Science in Information Technology at Iloilo Science and Technology University.
                         I want to improve my skills and motivation in the world of programming and web development.
-                        I am a friendly person who can easily get along with other people and communicate with them.
-                        As a student, what I want is to be successful this 2026 - 2028.
+                        I am a friendly person who gets along well with others and communicates easily.
+                        As a student, what I want is to be successful in 2026.
                     </p>
                     <div className="resume-download-buttons" style={{ justifyContent: 'flex-start', margin: '30px 0 0 0', justifyContent: 'space-between'}}>
-                        <a href={resumePdf} download="Lawrence_Jay_Gabionza_resume.pdf" className="btn-primary" style={{ boxShadow: 'none', justifyContent: 'space-between' }}>
+                        <a href={resumePdf} download="Lawrence_Jay_Gabionza_resume.pdf" className="btn-primary" style={{ boxShadow: 'none'}}>
                             Download Resume
                         </a>
                         <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: 'rgba(255, 255, 255, 0.05)', boxShadow: 'none' }}>
