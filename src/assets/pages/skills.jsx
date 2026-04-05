@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import '../css/global.css'
-const Skills = () => {
+
+export default function Skills() {
     const [isAnimated, setIsAnimated] = useState(false);
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -92,4 +93,4 @@ const Skills = () => {
         </>
     )
 }
-export default Skills;
+
