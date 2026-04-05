@@ -38,6 +38,8 @@ export default function Home()  {
             </section>
             <section className="services">
                     <div className="service-card">
+                        <h3>My Services</h3>
+                        <h2>What I Do</h2>
                         <div className="icon">😊</div>
                         <h4>Beginner Programmer</h4>
                         <p>I am a beginner programmer, and I am learning to code. I am a hard worker, and I am determined to succeed.</p>
