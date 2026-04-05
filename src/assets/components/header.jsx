@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons'
 import logo from '../components/image/LJAY.png'
 
-function Header() {
+export default function Header() {
 
     const [nav, setNav] = useState(false)
     const handleScroll = () => {
@@ -105,4 +105,3 @@ function Header() {
         </>
     )
 }
-export default Header;
